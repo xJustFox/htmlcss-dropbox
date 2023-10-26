@@ -11,17 +11,20 @@ body{
 /* Header layout */
 
 header{
+    background-color: white;
     width: 100%;
     min-width: 1200px;
     height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 nav{
     height: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
+    align-items: center; 
 }
 
 .col-nav{
@@ -53,21 +56,73 @@ nav{
 /* Main layout - Jumbo*/
 
 .row-jumbo{
-    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-jumbo-title{
+    width: 100%;
+    flex-grow: 2;
+}
+
+.col-jumbo-texts, .col-jumbo-img{
+    flex-grow: 1;
+}
+
+.col-jumbo-texts{
+    width: 30%;
+}
+.col-jumbo-img{
+    width: 70%;
+}
+
+/* Main Items - Jumbo */
+
+.col-jumbo-title h1{
+    font-weight: 800;
+    text-align: left;
+    font-size: 5rem;
+    padding: 50px 0;
+}
+
+.content-jumbo button{
+    padding: 10px;
+    margin: 30px 0;
+    border: none;
+}
+
+.arrow-down{
+    position: absolute;
+    bottom: 115px;
+    left: 0;
+    font-size: 4rem;
+}
+
+.cont-jumbo-img{
+    width: auto;
+}
+
+.col-jumbo-img img{
     width: 100%;
 }
 
+/* Business Plan */
 
 
 
 
 
-/* Reusable Class */
+            /* Reusable Class */
 
-.cont-1200{
-    width: 1200px;
+/* Container */
+.cont-1300{
+    max-width: 1300px;;
+    min-width: 1200px;
     margin: 0 auto;
 }
+
 
 .reset-list{
     list-style: none;
@@ -77,10 +132,33 @@ nav{
     display: inline;
 }
 
+.reset-button{
+    border: none;
+}
+
+.relative{
+    position: relative;
+}
+
+/* style items */
+
+.margin-top-75{
+    margin-top: 75px;
+}
+
+.font-medium{
+    font-size: medium;
+}
+
+/* bg and text color */
 .text-white{
     color: white;
 }
 
 .bg-blue{
     background-color: rgb(40,97,255);
+}
+
+.bg-azure{
+    background-color: lightskyblue;
 }
