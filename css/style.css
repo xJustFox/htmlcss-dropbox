@@ -3,3 +3,84 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header layout */
+
+header{
+    width: 100%;
+    min-width: 1200px;
+    height: 70px;
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.col-nav{
+    margin: 0 15px;
+}
+
+/* Header Items */
+
+.col-nav ol li{
+    vertical-align: middle;
+    padding: 0 15px;
+}
+
+.col-nav ol li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+.col-nav ol li button{
+    font-size: 1rem;
+    margin-left: 15px;
+    padding: 5px 10px;
+    border: none;
+}
+
+
+
+/* Main layout - Jumbo*/
+
+.row-jumbo{
+    background-color: blueviolet;
+    width: 100%;
+}
+
+
+
+
+
+
+/* Reusable Class */
+
+.cont-1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.reset-list{
+    list-style: none;
+}
+
+.or-list li{
+    display: inline;
+}
+
+.text-white{
+    color: white;
+}
+
+.bg-blue{
+    background-color: rgb(40,97,255);
+}
