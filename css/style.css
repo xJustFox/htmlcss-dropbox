@@ -216,7 +216,7 @@ nav{
 /* Contact Dropbox */
 
 .row-contact{
-    margin: 120px 0;
+    margin: 160px 0;
     width: 100%;
     display: flex;
 }
@@ -243,11 +243,45 @@ nav{
 
 /* Info Dropbox Business */
 
+.row-business{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 40px;
+}
+
+.col-business{
+    width: calc(100% / 3 - 27px);
+}
+
+/* Items - Info Dropbox Business */
+.title-business{
+    font-size: 3em;
+}
+
+.text-business h3{
+    font-size: x-large;
+    padding-bottom: 25px;
+}
+
+.footer-business{
+    margin: 130px 0;
+}
+
+.footer-business h1{
+    font-size: 3rem;
+    width: 70%;
+    padding-bottom: 60px;
+}
+
 
 
             /* Reusable Class */
 
 /* Container */
+.cont-vw{
+    width: 100vw;
+}
 .cont-1300{
     max-width: 1300px;;
     min-width: 1250px;
