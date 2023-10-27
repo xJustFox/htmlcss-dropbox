@@ -310,7 +310,7 @@ nav{
 }
 
 .cont-free-trial div{
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 /* Items Free Trial */
@@ -329,6 +329,28 @@ nav{
 }
 
 /* Questions */
+
+.title-questions{
+    padding: 50px 0;
+}
+
+.text-questions{
+    padding: 50px 0;
+}
+
+/* Items Questions */
+
+.title-questions h1{
+    font-size: 3rem;
+}
+
+.text-questions span{
+    font-weight: 900;
+}
+
+.text-questions i{
+    padding-left: 480px;
+}
 
             /* Reusable Class */
 
@@ -399,6 +421,10 @@ nav{
 
 .margin-top-70{
     margin-top: 70px;
+}
+
+.margin-t-b-70{
+    margin: 70px auto;
 }
 
 .padding-70{
