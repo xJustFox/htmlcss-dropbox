@@ -197,7 +197,33 @@ nav{
     right: 30px;
 }
 
+/* Contact Dropbox */
 
+.row-contact{
+    margin: 120px 0;
+    width: 100%;
+    display: flex;
+}
+
+.col-contact{
+    width: 50%;
+}
+
+.cont-contact{
+    padding: 50px;
+}
+
+/* Items Contact Dropbox */
+
+.cont-contact p{
+    padding: 30px 0;
+    font-size: large;
+}
+
+.cont-contact button{
+    font-size: larger;
+    padding: 10px;
+}
 
 
             /* Reusable Class */
@@ -235,6 +261,14 @@ nav{
 /* style items */
 .w-100{
     width: 100%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.w-40{
+    width: 40%;
 }
 
 .margin-top-100{
