@@ -304,8 +304,31 @@ nav{
 }
 
 /* Free Trial */
-.ror
+.cont-free-trial{
+    display: flex;
+    justify-content: space-between;
+}
 
+.cont-free-trial div{
+    padding: 150px 0;
+}
+
+/* Items Free Trial */
+
+.text-free-trial h1{
+    font-size: 3rem;
+}
+
+.button-free-trial{
+    margin-top: 15px;
+}
+
+.button-free-trial button{
+    font-size: large;
+    padding: 10px 50px;
+}
+
+/* Questions */
 
             /* Reusable Class */
 
@@ -362,6 +385,10 @@ nav{
     width: 60%;
 }
 
+.w-50{
+    width: 50%;
+}
+
 .w-40{
     width: 40%;
 }
@@ -413,6 +440,10 @@ nav{
 
 .text-gray{
     color: gray;
+}
+
+.text-purple{
+    color: rgba(97,8,43,255);
 }
 
 .bg-blue{
