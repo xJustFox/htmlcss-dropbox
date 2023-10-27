@@ -202,6 +202,8 @@ nav{
 /* Box Team */
 
 .text-box-plan{
+    display: flex;
+    justify-content: space-between;
     padding: 30px;
 }
 
@@ -218,9 +220,6 @@ nav{
 .contact-button{
     font-size: 1rem;
     padding: 15px 35px;
-    position: absolute;
-    top: 30px;
-    right: 30px;
 }
 
 /* Contact Dropbox */
