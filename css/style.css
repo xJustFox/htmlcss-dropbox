@@ -274,13 +274,45 @@ nav{
     padding-bottom: 60px;
 }
 
+/* Dropbox Partner */
+
+.row-partner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.col-partner{
+    width: calc(100% / 3);
+}
+
+.container-partner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Items - Dropbox Partner */
+
+.square{
+    width: 50%;
+    height: calc(100vw / 6 - 3px);
+}
+
+.mini-square{
+    height: 90%;
+    width: 90%;
+}
+
+/* Free Trial */
+.ror
 
 
             /* Reusable Class */
 
 /* Container */
 .cont-vw{
-    width: 100vw;
+    width: calc(100vw - (100vw - 100%));
+    min-width: 1250px;
 }
 .cont-1300{
     max-width: 1300px;;
@@ -293,7 +325,6 @@ nav{
     min-width: 1100px;
     margin: 0 auto;
 }
-
 
 .reset-list{
     list-style: none;
@@ -309,6 +340,17 @@ nav{
 
 .relative{
     position: relative;
+}
+
+.absolute-cent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.square img{
+    filter: invert(100%);
 }
 
 /* style items */
@@ -330,6 +372,22 @@ nav{
 
 .margin-top-70{
     margin-top: 70px;
+}
+
+.padding-70{
+    padding: 70px;
+}
+
+.padding-50{
+    padding: 50px
+}
+
+.padding-bott-40{
+    padding-bottom: 40px
+}
+
+.padding-40{
+    padding: 40px;
 }
 
 .centered-text{
@@ -363,4 +421,32 @@ nav{
 
 .bg-azure{
     background-color: lightskyblue;
+}
+
+.bg-green{
+    background-color: rgba(162,211,155,255);
+}
+
+.bg-lightgreen{
+    background-color: rgba(209,233,205,255);
+}
+
+.bg-purple{
+    background-color: rgba(97,8,43,255);
+}
+
+.bg-red{
+    background-color: rgb(229,17,29);
+}
+
+.bg-yellow{
+    background-color: rgba(255,216,48,255);
+}
+
+.bg-lightazure{
+    background-color: rgba(180,208,231,255);
+}
+
+.bg-darkblue{
+    background-color: rgba(13,36,129,255);
 }
