@@ -505,6 +505,10 @@ nav{
     color: rgba(97,8,43,255);
 }
 
+.bg-gray{
+    background-color: rgba(211, 211, 211, 0.6);
+}
+
 .bg-black{
     background-color: black;
 }
