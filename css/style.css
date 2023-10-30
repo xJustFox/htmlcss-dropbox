@@ -31,6 +31,8 @@ header{
 }
 
 nav{
+    max-width: 1900px;
+    margin: 0 auto;
     height: 100%;
     display: flex;
     justify-content: space-between;
